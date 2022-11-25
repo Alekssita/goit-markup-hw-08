@@ -1,0 +1,109 @@
+.footer {
+    padding: 94px 0;
+    background: var(--main-unit);
+  }
+  .footer__communication {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer__logo {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+  }
+  
+  .footer__wrap {
+    color: var(--main-light);
+  }
+  .footer__link {
+    display: inline-block;
+    font-style: normal;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0;
+    color: var(--main-light);
+    text-decoration: none;
+    }
+  
+  .footer__nav {
+    display: inline-block;
+    font-style: normal;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+
+  .footer__contact {
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 70px;
+    }
+  
+  .footer__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer__socials {
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 206px;
+    height: 80px;
+    padding-top: 12px;
+    }
+
+    .footer__naim {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      color: var(--main-light);
+      padding-bottom: 20px;
+    }
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer__section {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer__sector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--main-light);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+  .footer__sector:hover {
+    fill: var(--main-light);
+    background-color: var(--secondary-color);
+  }
+  
+  .footer__icon:hover {
+    fill: var(--main-light);
+  }
+   
+
+  

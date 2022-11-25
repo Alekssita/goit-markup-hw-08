@@ -1,0 +1,29 @@
+
+ul {
+    list-style: none;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--main-icons);
+    background-color: var(--main-light);
+    border-radius: 50%;
+  }
+  .socials__link:hover {
+    fill: var(--main-light);
+    background-color: var(--secondary-color);
+  }
+  
+  .socials__icon:hover {
+    fill: var(--main-light);
+  }
