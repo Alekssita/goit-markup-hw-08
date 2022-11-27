@@ -524,7 +524,6 @@
 
 .header {
   border: 1px solid var(--border-heder);
-  background-color: aqua;
 }
 .header__container {
   display: -webkit-box;
