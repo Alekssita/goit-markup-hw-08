@@ -13,9 +13,9 @@
       ),
       url(../images/Herro.jpg);
     background-position: center;
-  }
-  
-  .hero__title {
+
+   
+  &__title {
     max-width: 700px;
     margin: 0 auto 30px;
     font-weight: 900;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
     color: var(--main-light);
   }
-  .hero__btn {
+  &__btn {
     padding: 10px 32px;
     border-radius: 4px;
     cursor: pointer;
@@ -43,3 +43,4 @@
     display: flex;
     border: none;
   }
+}

@@ -524,8 +524,8 @@
 
 .header {
   border: 1px solid var(--border-heder);
+  background-color: aqua;
 }
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -534,7 +534,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -547,7 +546,6 @@
           flex-grow: 1;
   margin-left: 92px;
 }
-
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,7 +562,6 @@
   margin: 0;
   list-style: none;
 }
-
 .header__link {
   display: block;
   margin-left: auto;
@@ -581,17 +578,12 @@
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .header__link:not(:last-child) {
   margin-right: 50px;
 }
-
-.header__link:hover,
-.header__link:focus,
-.header__link:hover::after {
+.header__link:hover, .header__link:focus, .header__link:hover::after {
   color: var(--secondary-color);
 }
-
 .header__link::after {
   display: block;
   margin-top: 28px;
@@ -617,7 +609,6 @@
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Herro.jpg);
   background-position: center;
 }
-
 .hero__title {
   max-width: 700px;
   margin: 0 auto 30px;
@@ -629,7 +620,6 @@
   text-transform: uppercase;
   color: var(--main-light);
 }
-
 .hero__btn {
   padding: 10px 32px;
   border-radius: 4px;
@@ -955,6 +945,21 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .section {
