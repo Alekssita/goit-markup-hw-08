@@ -8,7 +8,10 @@
   padding-left: 0;
   margin: 0;
   list-style: none;
-
+  
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 
 &__nav {
     margin-left: auto;
