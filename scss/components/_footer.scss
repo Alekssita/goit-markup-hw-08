@@ -5,6 +5,10 @@
   &__communication {
      align-items: baseline;
 
+     @media screen and (max-width: 480px){
+      text-align: center;
+         }
+
     @media screen and (min-width: 460px){
       display: flex;
       flex-wrap: wrap;
@@ -12,7 +16,6 @@
   }
 
  &__logo {
-    display: flex;
     margin-bottom: 20px;
     font-family: "Raleway";
     font-size: 26px;
@@ -21,6 +24,15 @@
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
+
+    @media screen and (max-width: 480px){
+      text-align: center;
+         }
+
+    @media screen and (min-width: 480px){
+          display: flex;
+          flex-wrap: wrap;
+        }
   }
   
   &__wrap {

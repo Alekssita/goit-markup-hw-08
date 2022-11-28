@@ -1,5 +1,9 @@
 .activity {
   padding: 94px 0;
+  
+  @media (max-width: 767px) {
+    display: none;
+  }
 
   &__class {
     margin-bottom: 50px;
