@@ -3,8 +3,12 @@
     background: var(--main-unit);
   
   &__communication {
-    display: flex;
-    align-items: baseline;
+     align-items: baseline;
+
+    @media screen and (min-width: 460px){
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 
  &__logo {

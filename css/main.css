@@ -1,4 +1,7 @@
 .activity {
+  padding: 94px 0;
+}
+.activity__class {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -327,12 +330,18 @@
   background: var(--main-unit);
 }
 .footer__communication {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+@media screen and (min-width: 460px) {
+  .footer__communication {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .footer__logo {
   display: -webkit-box;
@@ -849,7 +858,6 @@ ul {
       flex-wrap: wrap;
   padding-left: 93px;
 }
-
 .subscription__naim {
   font-style: normal;
   font-weight: 700;
@@ -859,7 +867,6 @@ ul {
   color: var(--main-light);
   padding-bottom: 20px;
 }
-
 .subscription__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -869,7 +876,6 @@ ul {
           align-items: center;
   padding-right: 12px;
 }
-
 .subscription__input {
   width: 358px;
   height: 50px;
@@ -882,12 +888,10 @@ ul {
   color: var(--main-light);
   padding: 16px 15px;
 }
-
 .subscription__input:focus {
   outline: none;
   border-color: var(--main-light);
 }
-
 .subscription__icon {
   margin-left: 10px;
 }

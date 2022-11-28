@@ -3,9 +3,9 @@
    justify-content: center;
    flex-wrap: wrap;
    padding-left: 93px;
-  }
   
-  .subscription__naim {
+  
+  &__naim {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -15,13 +15,14 @@
     padding-bottom: 20px;
   }
   
-  .subscription__list {
+  &__list {
      display: flex;
      align-items: center;
      padding-right: 12px;
+     
   }
   
-  .subscription__input {
+  &__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -33,11 +34,12 @@
     padding: 16px 15px;
   }
   
-  .subscription__input:focus {
+  &__input:focus {
     outline:none;
     border-color: var(--main-light); 
   }
   
-  .subscription__icon {
+  &__icon {
     margin-left: 10px;
   }
+}
