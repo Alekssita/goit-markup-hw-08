@@ -436,6 +436,11 @@
   height: 80px;
   padding-top: 12px;
 }
+@media screen and (max-width: 480px) {
+  .footer__socials {
+    margin-top: 60px;
+  }
+}
 .footer__naim {
   font-style: normal;
   font-weight: 700;
@@ -914,12 +919,17 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 93px;
 }
-@media screen and (min-width: 460px) {
+@media screen and (max-width: 480px) {
+  .subscription {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 480px) {
   .subscription {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-left: 93px;
   }
 }
 .subscription__naim {
@@ -957,6 +967,11 @@ ul {
   margin-right: 12px;
   color: var(--main-light);
   padding: 16px 15px;
+}
+@media screen and (max-width: 460px) {
+  .subscription__input {
+    margin-bottom: 20px;
+  }
 }
 .subscription__input:focus {
   outline: none;
