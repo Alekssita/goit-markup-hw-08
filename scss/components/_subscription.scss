@@ -1,9 +1,11 @@
 
 .subscription {
    justify-content: center;
-   flex-wrap: wrap;
-   padding-left: 93px;
-  
+    padding-left: 93px;
+
+   @media screen and (min-width: 460px){
+     flex-wrap: wrap;
+  }
   
   &__naim {
     font-style: normal;
@@ -16,9 +18,13 @@
   }
   
   &__list {
-     display: flex;
      align-items: center;
      padding-right: 12px;
+
+     @media screen and (min-width: 460px){
+      display: flex;
+      flex-wrap: wrap;
+    }
      
   }
   

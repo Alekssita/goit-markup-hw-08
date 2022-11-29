@@ -914,9 +914,13 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding-left: 93px;
+}
+@media screen and (min-width: 460px) {
+  .subscription {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .subscription__naim {
   font-style: normal;
@@ -928,13 +932,19 @@ ul {
   padding-bottom: 20px;
 }
 .subscription__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-right: 12px;
+}
+@media screen and (min-width: 460px) {
+  .subscription__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .subscription__input {
   width: 358px;
