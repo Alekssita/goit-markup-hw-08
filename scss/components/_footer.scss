@@ -7,8 +7,10 @@
 
      @media screen and (max-width: 480px){
       text-align: center;
+      justify-content: center;
          }
-
+  
+    
     @media screen and (min-width: 460px){
       display: flex;
       flex-wrap: wrap;
@@ -16,7 +18,7 @@
   }
 
  &__logo {
-    margin-bottom: 20px;
+  margin-bottom: 30px;
     font-family: "Raleway";
     font-size: 26px;
     line-height: 1.19;
@@ -24,9 +26,14 @@
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
+   
 
-    @media screen and (max-width: 480px){
-      text-align: center;
+    
+
+
+    @media screen and (min-width: 480px){
+      
+      margin-bottom: 20px;
          }
 
     @media screen and (min-width: 480px){
@@ -65,8 +72,13 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    margin-right: 70px;
+   
+
+    @media screen and (min-width: 480px){
+      margin-right: 70px;
     }
+    }
+
   
   &__item:not(:last-child) {
     margin-bottom: 9px;
@@ -77,10 +89,12 @@
     list-style: none;
     max-width: 206px;
     height: 80px;
-    padding-top: 12px;
+    padding-top: 30px;
+
     
-    @media screen and (max-width: 480px){
+    @media screen and (min-width: 480px){
       margin-top: 60px;
+      padding-top: 12px;
     }
     }
 
