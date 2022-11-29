@@ -251,7 +251,6 @@
   margin: 0px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 50px;
   padding-left: 0;
   margin: 0;
   list-style: none;
@@ -259,6 +258,11 @@
 @media screen and (max-width: 480px) {
   .contact {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    gap: 50px;
   }
 }
 .contact__nav {
