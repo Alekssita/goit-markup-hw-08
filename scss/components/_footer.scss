@@ -3,25 +3,21 @@
     background: var(--main-unit);
   
   &__communication {
-     align-items: baseline;
-    
-
-
-
-     @media screen and (max-width: 480px){
-      text-align: center;
-      justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+     justify-content: center;
          }
   
     
-    @media screen and (min-width: 460px){
+    @media screen and (min-width: 480px){
       display: flex;
+      align-items: baseline;
       flex-wrap: wrap;
     }
-  }
+  
 
  &__logo {
-  margin-bottom: 30px;
+ 
     font-family: "Raleway";
     font-size: 26px;
     line-height: 1.19;

@@ -1,20 +1,17 @@
 
 .subscription {
-   justify-content: center;
-   width: 100%;
-   max-width: 450px;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
 
-<<<<<<< HEAD
    @media screen and (min-width: 1200px){
     max-width: 358px;
   
   }
    
   
-=======
-
->>>>>>> cbc252d219ea5eb6535d905c035763ce26ef1fee
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: 768px){
       flex-wrap: wrap;
       padding-left: 93px;
       margin-top: 60px;
@@ -35,7 +32,7 @@
      align-items: center;
      padding-right: 12px;
 
-     @media screen and (min-width: 460px){
+     @media screen and (min-width: 768px){
       display: flex;
       flex-wrap: wrap;
     }
@@ -55,7 +52,7 @@
     color: var(--main-light);
     padding: 16px 15px;
   
-     @media screen and (max-width: 460px){
+     @media screen and (max-width: 768px){
     margin-bottom: 20px;
   }
   }
