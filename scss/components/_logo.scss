@@ -8,7 +8,8 @@
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
-  }
-  .logo__wrap {
+   
+    &__wrap {
     color: var(--logo-wrap-color);
   }
+}
