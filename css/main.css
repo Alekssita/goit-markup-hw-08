@@ -462,9 +462,13 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style: none;
-  max-width: 206px;
   height: 80px;
   padding-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__socials {
+    max-width: 206px;
+  }
 }
 @media screen and (min-width: 480px) {
   .footer__socials {

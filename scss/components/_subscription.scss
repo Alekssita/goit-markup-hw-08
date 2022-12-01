@@ -3,12 +3,11 @@
    justify-content: center;
    
 
-   @media screen and (max-width: 480px){
-       margin-top: 60px;
-    }
+
     @media screen and (min-width: 480px){
       flex-wrap: wrap;
       padding-left: 93px;
+      margin-top: 60px;
      }
 
   

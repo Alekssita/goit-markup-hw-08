@@ -87,9 +87,12 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    max-width: 206px;
     height: 80px;
     padding-top: 30px;
+
+    @media screen and (min-width: 1200px){
+      max-width: 206px;
+    }
 
     
     @media screen and (min-width: 480px){
