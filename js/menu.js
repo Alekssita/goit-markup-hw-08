@@ -1,29 +1,29 @@
 
- ( ( )  =>  {
-    const  mobileMenu  =  документ . querySelector ( '.js-меню-контейнер' ) ;
-    const  openMenuBtn  =  документ . querySelector ( '.js-open-menu' ) ;
-    const  closeMenuBtn  =  документ . querySelector ( '.js-close-menu' ) ;
+(() => {
+    const mobileMenu = document.querySelector('.js-menu-container');
+    const openMenuBtn = document.querySelector('.js-open-menu');
+    const closeMenuBtn = document.querySelector('.js-close-menu');
   
-     константа toggleMenu  = (  ) =  >  {
-       константа  isMenuOpen =
-        openMenuBtn . getAttribute ( 'aria-expanded' )  ===  'true'  ||  ложный ;
-      openMenuBtn . setAttribute ( 'aria-expanded' ,  ! isMenuOpen ) ;
-      мобильное меню . список классов . toggle ( 'is-open' ) ;
+    const toggleMenu = () => {
+      const isMenuOpen =
+        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+      openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+      mobileMenu.classList.toggle('is-open');
   
-      const  scrollLockMethod  =  ! isMenuOpen
-        ? 'отключить прокрутку тела'
-        : 'enableBodyScroll' ;
-      bodyScrollLock [ scrollLockMethod ] ( документ.тело ) ; _ _
-    } ;
+      const scrollLockMethod = !isMenuOpen
+        ? 'disableBodyScroll'
+        : 'enableBodyScroll';
+      bodyScrollLock[scrollLockMethod](document.body);
+    };
   
-    openMenuBtn . addEventListener ( 'щелчок' ,  toggleMenu ) ;
-    закрытьMenuBtn . addEventListener ( 'щелчок' ,  toggleMenu ) ;
+    openMenuBtn.addEventListener('click', toggleMenu);
+    closeMenuBtn.addEventListener('click', toggleMenu);
   
-    // Закрываем мобильное меню на более широких экранах, если меняется ориентация устройства
-    окно . matchMedia ( '(мин. ширина: 768 пикселей)' ) . addEventListener ( 'изменить' ,  e  =>  {
-      если  ( ! e . соответствует )  return ;
-      мобильное меню . список классов . удалить ( «открыто» ) ;
-      openMenuBtn . setAttribute ( 'расширенная ария' ,  ложь ) ;
-      бодискролллокк . enableBodyScroll ( документ.тело ) ; _ _
-    } ) ;
-  } ) ( ) ;
+    // Close the mobile menu on wider screens if the device orientation changes
+    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+      if (!e.matches) return;
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+  })();
