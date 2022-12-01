@@ -14,13 +14,10 @@
   transform: translateX(100%);
   transition: transform 250ms;
 
-  |&.is-open {
+  &.is-open {
     transform: translateX(none);
   }
 
-  &.is-open {
-  display: flex;
-}
 
   &__close {
       display: inline-flex;
