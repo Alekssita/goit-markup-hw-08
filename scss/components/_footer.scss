@@ -84,12 +84,21 @@
     flex-wrap: wrap;
     list-style: none;
     height: 80px;
+<<<<<<< HEAD
   
     @media screen and (min-width: 1200px) {
       padding-top: 30px;
       max-width: 206px;
     }
     
+=======
+    padding-top: 30px;
+
+    @media screen and (min-width: 1200px){
+      max-width: 206px;
+    }
+
+>>>>>>> cbc252d219ea5eb6535d905c035763ce26ef1fee
     
     @media screen and (min-width: 480px){
       margin-top: 60px;
