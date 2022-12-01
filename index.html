@@ -28,15 +28,20 @@
             >Web<span class="logo__wrap">Studio</span>
           </a>
 
-          <div class="header-menu">
+          <div class="header-menu js-menu-container">
             <div class="container">
-              <button  tupe="button"  class="header-menu__button js-menu-container is-open">
+              <button  tupe="button"  class="header-menu__button js-open-menu is-open">
                 <svg  width="40px" height="40px" aria-label="Перекючатель мобильного меню"  >
-                  <use class="header-menu__close js-close-menu" href="./images/icons/icons.svg#icon-close_40px"></use>
-                  <use class="header-menu__menu js-open-menu"  href="./images/icons/icons.svg#icon-menu_40px"></use>
+                 <use href="./images/icons/icons.svg#icon-menu_40px"></use>
                 </svg>
               </button>
+         
               <nav>
+                <button  tupe="button"  class="header-menu__close js-close-menu">
+                  <svg  width="40px" height="40px" aria-label="Перекючатель мобильного меню"  >
+                    <use href="./images/icons/icons.svg#icon-close_40px"></use>
+                  </svg>
+                </button>
                 <ul class="header__list">
                   <li class="item">
                     <a class="header__link" href="./index.html"> Студія </a>
@@ -717,7 +722,7 @@
         <button class="form__btn hero__btn" type="submit">Відправити</button>
       </div>
     </div>
-    <script src="./js/memu.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

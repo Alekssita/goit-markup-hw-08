@@ -1,4 +1,8 @@
 .header-menu {
+display: none;
+&.is-open {
+  display: flex;
+}
 
   &__close {
       display: inline-flex;
