@@ -1115,7 +1115,6 @@ ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-left: 93px;
-    margin-top: 60px;
   }
 }
 .subscription__naim {
@@ -1153,11 +1152,7 @@ ul {
   margin-right: 12px;
   color: var(--main-light);
   padding: 16px 15px;
-}
-@media screen and (max-width: 768px) {
-  .subscription__input {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
 }
 .subscription__input:focus {
   outline: none;
