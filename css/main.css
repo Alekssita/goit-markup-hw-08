@@ -399,7 +399,6 @@
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
-  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .footer__logo {
@@ -408,6 +407,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-right: 165px;
   }
 }
 .footer__wrap {
@@ -446,6 +446,11 @@
 @media screen and (min-width: 1200px) {
   .footer__contact {
     margin-right: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__contact {
+    margin-right: 165px;
   }
 }
 .footer__item:not(:last-child) {
