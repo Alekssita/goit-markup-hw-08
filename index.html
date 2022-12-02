@@ -15,8 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css"/>
-
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -28,96 +27,54 @@
             >Web<span class="logo__wrap">Studio</span>
           </a>
 
-          <div class="menu-container js-menu-container" id="mobile-menu"> 
+          <div>
             <div class="container">
-              <button  tupe="button"  class="header-menu__button js-open-menu">
-                <svg  width="40px" height="40px" aria-label="Перекючатель мобильного меню"  >
-                 <use href="./images/icons/icons.svg#icon-menu_40px"></use>
+              <button 
+                  class="menu-toggle js-open-menu"
+                  aria-expanded="false"
+                  aria-controls="mobile-menu">
+                <svg
+                  width="40px"
+                  height="40px"
+                  aria-label="Перекючатель мобильного меню"
+                >
+                  <use href="./images/icons/icons.svg#icon-menu_40px"></use>
                 </svg>
-              </button>
-         
-              <nav>
-                <button  tupe="button"  class="header-menu__close js-close-menu">
-                  <svg  width="40px" height="40px" aria-label="Перекючатель мобильного меню"  >
-                    <use href="./images/icons/icons.svg#icon-close_40px"></use>
-                  </svg>
-                </button>
-                <ul class="header-menu__list">
-                  <li class="item">
-                    <a class="header-menu__link" href="./index.html"> Студія </a>
-                  </li>
-                  <li class="item">
-                    <a class="header-menu__link" href="./portfolio.html">Портфоліо</a>
-                  </li>
-                  <li class="item">
-                    <a class="header-menu__link" href="#">Контакти</a>
-                  </li>
-                </ul>
-              </nav>
-              <ul>
-                <li class="item">
-                  <a class="contact__nav" href="tel:+380961111111">
-                    +38 096 111 11 11
-     </a>
-                  <a class="contact__nav" href="mailto:info@devstudio.com">
-                   info@devstudio.com
-                  </a>
-                </li>
-                <li class="item">
-                 
-                </li>
-              </ul>
-              <ul>
-                <li class="item">
-                  <a class="header-menu__socials" href="#"> Instagram</a>
-                </li>
-                <li class="item">
-                  <a class="header-menu__socials" href="#">Twiter</a>
-                </li>
-                <li class="item">
-                  <a class="header-menu__socials" href="#">Facebook</a>
-                </li>
-                <li class="item">
-                  <a class="header-menu__socials" href="#">Linkedin</a>
-                </li>
-              </ul>
-    
+              </button>         
             </div>
-        </div>
+          </div>
 
-
-            <nav class="header__nav">
-              <ul class="header__list">
-                <li class="item">
-                  <a class="header__link" href="./index.html"> Студія </a>
-                </li>
-                <li class="item">
-                  <a class="header__link" href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li class="item">
-                  <a class="header__link" href="#">Контакти</a>
-                </li>
-              </ul>
-            </nav>
-            <ul class="contact">
+          <nav class="header__nav">
+            <ul class="header__list">
               <li class="item">
-                <a class="contact__nav" href="mailto:info@devstudio.com">
-                  <svg class="contact__icon" width="16" height="12">
-                    <use href="./images/icons/icons.svg#icon-envelope"></use>
-                  </svg>
-                  info@devstudio.com
-                </a>
+                <a class="header__link" href="./index.html"> Студія </a>
               </li>
               <li class="item">
-                <a class="contact__nav" href="tel:+380961111111">
-                  <svg class="contact__icon" width="10" height="16">
-                    <use href="./images/icons/icons.svg#icon-smartphone"></use>
-                  </svg>
-                  +38 096 111 11 11
-                </a>
+                <a class="header__link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="item">
+                <a class="header__link" href="#">Контакти</a>
               </li>
             </ul>
-      
+          </nav>
+          <ul class="contact">
+            <li class="item">
+              <a class="contact__nav" href="mailto:info@devstudio.com">
+                <svg class="contact__icon" width="16" height="12">
+                  <use href="./images/icons/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="item">
+              <a class="contact__nav" href="tel:+380961111111">
+                <svg class="contact__icon" width="10" height="16">
+                  <use href="./images/icons/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -140,11 +97,7 @@
           <ul class="benefits__list">
             <li class="benefits__item">
               <div class="benefits__link">
-                <svg
-                  class="benefits__icon"
-                  width="270"
-                  height="120"
-                >
+                <svg class="benefits__icon" width="270" height="120">
                   <use href="./images/icons/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -156,11 +109,7 @@
             </li>
             <li class="benefits__item">
               <div class="benefits__link">
-                <svg
-                  class="benefits__icon"
-                  width="270"
-                  height="120"
-                >
+                <svg class="benefits__icon" width="270" height="120">
                   <use href="./images/icons/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -172,11 +121,7 @@
             </li>
             <li class="benefits__item">
               <div class="benefits__link">
-                <svg
-                  class="benefits__icon"
-                  width="270"
-                  height="120"
-                >
+                <svg class="benefits__icon" width="270" height="120">
                   <use href="./images/icons/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -187,11 +132,7 @@
             </li>
             <li class="benefits__item">
               <div class="benefits__link">
-                <svg
-                  class="benefits__icon"
-                  width="270"
-                  height="120"
-                >
+                <svg class="benefits__icon" width="270" height="120">
                   <use href="./images/icons/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -248,24 +189,29 @@
           <ul class="team__list">
             <li class="team__item">
               <picture>
-                <source 
-                media="(max-width: 450px)"
-                srcset="./images/comanda/mob igor.jpg 1x, ./images/comanda/mob igor@2x.jpg 2x" 
-                srs="./images/comanda/mob igor.jpg">
+                <source
+                  media="(max-width: 450px)"
+                  srcset="./images/comanda/mob igor.jpg 1x, ./images/comanda/mob igor@2x.jpg 2x"
+                  srs="./images/comanda/mob igor.jpg"
+                />
 
-                <source 
-                media="(max-width: 354px)"
-                srcset="./images/comanda/tablet igor.jpg 1x, ./images/comanda/tablet igor@2x.jpg 2x" 
-                srs="./images/comanda/tablet igor.jpg">
+                <source
+                  media="(max-width: 354px)"
+                  srcset="./images/comanda/tablet igor.jpg 1x, ./images/comanda/tablet igor@2x.jpg 2x"
+                  srs="./images/comanda/tablet igor.jpg"
+                />
 
                 <img
-                media="(max-width: 270px)"
-                srcset="./images/comanda/igor.jpg 1x, ./images/comanda/igor@2x.jpg 2x"
-                src="./images/comanda/igor.jpg"
-                alt="фото Ігор Дем'яненко"
-                  />
+                  media="(max-width: 270px)"
+                  srcset="
+                    ./images/comanda/igor.jpg    1x,
+                    ./images/comanda/igor@2x.jpg 2x
+                  "
+                  src="./images/comanda/igor.jpg"
+                  alt="фото Ігор Дем'яненко"
+                />
               </picture>
-           
+
               <div class="team__content">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__profession">Product Designer</p>
@@ -310,25 +256,29 @@
 
             <li class="team__item">
               <picture>
-                <source 
-                media="(max-width: 450px)"
-                srcset="./images/comanda/mob olga.jpg 1x, ./images/comanda/mob olga@2x.jpg 2x" 
-                srs="./images/comanda/mob olga.jpg">
-  
-                <source 
-                media="(max-width: 354px)"
-                srcset="./images/comanda/tablet olga.jpg 1x, ./images/comanda/tablet olga@2x.jpg 2x" 
-                srs="./images/comanda/tablet olga.jpg">
-  
+                <source
+                  media="(max-width: 450px)"
+                  srcset="./images/comanda/mob olga.jpg 1x, ./images/comanda/mob olga@2x.jpg 2x"
+                  srs="./images/comanda/mob olga.jpg"
+                />
+
+                <source
+                  media="(max-width: 354px)"
+                  srcset="./images/comanda/tablet olga.jpg 1x, ./images/comanda/tablet olga@2x.jpg 2x"
+                  srs="./images/comanda/tablet olga.jpg"
+                />
+
                 <img
-                media="(max-width: 270px)"
-                srcset="./images/comanda/olga.jpg 1x, ./images/comanda/olga@2x.jpg 2x,"
-                src="./images/comanda/olga.jpg"
-                alt="фото Ольга Рєпіна"
-                  />
+                  media="(max-width: 270px)"
+                  srcset="
+                    ./images/comanda/olga.jpg    1x,
+                    ./images/comanda/olga@2x.jpg 2x
+                  "
+                  src="./images/comanda/olga.jpg"
+                  alt="фото Ольга Рєпіна"
+                />
               </picture>
-                    
-            
+
               <div class="team__content">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__profession">Frontend Developer</p>
@@ -372,23 +322,24 @@
             </li>
             <li class="team__item">
               <picture>
-                <source 
-                media="(max-width: 450px)"
-                srcset="./images/comanda/mob mukola.jpg 1x, ./images/comanda/mob mukola@2x.jpg 2x" 
-                srs="./images/comanda/mob mukola.jpg"
-              
-                media="(max-width: 354px)"
-                srcset="./images/comanda/tablet mukola.jpg 1x, ./images/comanda/tablet mukola@2x.jpg 2x" 
-                srs="./images/comanda/tablet mukola.jpg">
+                <source
+                  media="(max-width: 450px)"
+                  srcset="./images/comanda/mob mukola.jpg 1x, ./images/comanda/mob mukola@2x.jpg 2x"
+                  srs="./images/comanda/mob mukola.jpg"
+                  media="(max-width: 354px)"
+                  srcset="./images/comanda/tablet mukola.jpg 1x, ./images/comanda/tablet mukola@2x.jpg 2x"
+                  srs="./images/comanda/tablet mukola.jpg"
+                />
 
                 <img
-                srcset="./images/comanda/mukola.jpg 1x, ./images/comanda/mukola@2x.jpg 2x,"
-                src="./images/comanda/mukola.jpg"
-                alt="фото Микола Тарасов"
-                 />
-
+                  srcset="
+                    ./images/comanda/mukola.jpg    1x,
+                    ./images/comanda/mukola@2x.jpg 2x
+                  "
+                  src="./images/comanda/mukola.jpg"
+                  alt="фото Микола Тарасов"
+                />
               </picture>
-
 
               <div class="team__content">
                 <h3 class="team__name">Микола Тарасов</h3>
@@ -433,21 +384,23 @@
             </li>
             <li class="team__item">
               <picture>
-                <source 
-                media="(max-width: 450px)"
-                srcset="./images/comanda/mob muhaylo.jpg 1x, ./images/comanda/mob muhaylo@2x.jpg 2x" 
-                srs="./images/comanda/mob muhaylo.jpg"
-              
-                media="(max-width: 354px)"
-                srcset="./images/comanda/tablet muhaylo.jpg 1x, ./images/comanda/tablet muhaylo@2x.jpg 2x" 
-                srs="./images/comanda/tablet muhaylo.jpg">
+                <source
+                  media="(max-width: 450px)"
+                  srcset="./images/comanda/mob muhaylo.jpg 1x, ./images/comanda/mob muhaylo@2x.jpg 2x"
+                  srs="./images/comanda/mob muhaylo.jpg"
+                  media="(max-width: 354px)"
+                  srcset="./images/comanda/tablet muhaylo.jpg 1x, ./images/comanda/tablet muhaylo@2x.jpg 2x"
+                  srs="./images/comanda/tablet muhaylo.jpg"
+                />
 
                 <img
-                srcset="./images/comanda/muhaylo.jpg 1x, ./images/comanda/muhaylo@2x.jpg 2x,"
-                src="./images/comanda/muhaylo.jpg"
-                alt="фото Михайло Єрмаков"
-                  />
-
+                  srcset="
+                    ./images/comanda/muhaylo.jpg    1x,
+                    ./images/comanda/muhaylo@2x.jpg 2x
+                  "
+                  src="./images/comanda/muhaylo.jpg"
+                  alt="фото Михайло Єрмаков"
+                />
               </picture>
 
               <div class="team__content">
@@ -642,7 +595,59 @@
       </div>
     </footer>
 
-   
+    <!--Бургер меню-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+         <nav>
+          <button tupe="button" class="menu-toggle js-close-menu">
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Перекючатель мобильного меню"
+            >
+              <use href="./images/icons/icons.svg#icon-close_40px"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu">
+            <li class="item">
+              <a class="mobile-menu__link" href="./index.html"> Студія </a>
+            </li>
+            <li class="item">
+              <a class="mobile-menu__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item">
+              <a class="mobile-menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul>
+          <li class="item">
+            <a class="contact__nav" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+            <a class="contact__nav" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item"></li>
+        </ul>
+        <ul>
+          <li class="item">
+            <a class="header-menu__socials" href="#"> Instagram</a>
+          </li>
+          <li class="item">
+            <a class="header-menu__socials" href="#">Twiter</a>
+          </li>
+          <li class="item">
+            <a class="header-menu__socials" href="#">Facebook</a>
+          </li>
+          <li class="item">
+            <a class="header-menu__socials" href="#">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+         <!--Модальное окно-->
 
     <div class="modal is-hidden" data-modal>
       <div class="modal__backdrop">
@@ -701,7 +706,14 @@
 
           <div>
             <label class="modal__label" for="person-coment">Коментар</label>
-            <textarea class="modal__textarea" name="person-coment" id="person-coment" cols="30" rows="10" placeholder="Введіть текст"></textarea>
+            <textarea
+              class="modal__textarea"
+              name="person-coment"
+              id="person-coment"
+              cols="30"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
           </div>
         </form>
 
@@ -721,6 +733,12 @@
         <button class="form__btn hero__btn" type="submit">Відправити</button>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
