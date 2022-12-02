@@ -112,8 +112,27 @@
 						
 						</li>
 						<li class="goods__item">
-							<div class="goods__card">
-								<img src="./images/portfolio/orlean.jpg" alt="фото двух баскетболистов" width="370" height="294" />
+							<div class="goods__card">								
+								<picture>
+									<source 
+									media="(max-width: 450px)"
+									srcset="./images/portfolio/tehnokriakmob.jpg 1x, ./images/portfolio/orleanmob@2x.jpg 2x" 
+									srs="./images/portfolio/orlean.jpg">
+					
+									<source 
+									media="(max-width: 354px)"
+									srcset="./images/portfolio/orleantab.jpg 1x, ../images/portfolio/orleantab@2x.jpg 2x" 
+									srs="./images/portfolio/orlean.jpg">
+					
+									<img
+									media="(max-width: 370px)"
+									srcset="./images/portfolio/orlean.jpg, ./images/portfolio/orlean.jpg 2x"
+									src="./images/portfolio/orlean.jpg"
+									alt="фото двух баскетболистов"
+									  />
+								  </picture>
+								
+								
 								<p class="goods__discription">
 									Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 								</p>
