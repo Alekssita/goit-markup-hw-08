@@ -83,7 +83,24 @@
 					<ul class="goods">
 						<li class="goods__item">
 							<div class="goods__card">
-								<img src="./images/portfolio/tehnokriak.jpg" alt="фото троих людей" width="370" height="294" />
+								<picture>
+									<source 
+									media="(max-width: 450px)"
+									srcset="./images/portfolio/tehnokriakmob.jpg 1x, ./images/portfolio/tehnokriakmob@2x.jpg 2x" 
+									srs="./images/portfolio/tehnokriakmob.jpg">
+					
+									<source 
+									media="(max-width: 354px)"
+									srcset="./images/portfolio/tehnokriaktab.jpg 1x, ./images/portfolio/tehnokriaktab@2x.jpg 2x" 
+									srs="./images/portfolio/tehnokriaktab.jpg">
+					
+									<img
+									media="(max-width: 370px)"
+									srcset="./images/portfolio/tehnokriak.jpg, ./images/portfolio/tehnokriak.jpg 2x"
+									src="./images/portfolio/tehnokriak.jpg"
+									alt="фото троих людей"
+									  />
+								  </picture>
 								<p class="goods__discription">
 									Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 								</p>
