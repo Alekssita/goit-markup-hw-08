@@ -5,16 +5,15 @@
   &__communication {
     margin: 0 auto;
     text-align: center;
-     justify-content: center;
-     margin-bottom: 60px;
-         }
+    justify-content: center;
+           
      
     @media screen and (min-width: 768px){
       display: flex;
       align-items: baseline;
       flex-wrap: wrap;
     }
-  
+  }
 
  &__logo {
     justify-content: center;
