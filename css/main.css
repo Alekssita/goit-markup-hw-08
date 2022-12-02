@@ -999,9 +999,6 @@
     line-height: 1.15;
   }
 }
-.modal__input {
-  margin-bottom: 10px;
-}
 .modal__label {
   display: block;
   font-size: 12px;
@@ -1012,6 +1009,7 @@
 }
 .modal__wrapper {
   position: relative;
+  margin-bottom: 10px;
 }
 .modal__input {
   width: 100%;

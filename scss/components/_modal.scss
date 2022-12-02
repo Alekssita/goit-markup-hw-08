@@ -55,10 +55,7 @@
       }
   }
 
-  &__input {
-    margin-bottom: 10px;
- }
-  &__label {
+   &__label {
    display: block;
    font-size: 12px;
    line-height: 1.17;
@@ -69,6 +66,7 @@
  
  &__wrapper {
    position: relative;
+   margin-bottom: 10px;
  }
  
  
