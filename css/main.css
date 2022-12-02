@@ -400,6 +400,7 @@
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .footer__logo {
@@ -408,7 +409,6 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: 20px;
   }
 }
 .footer__wrap {
@@ -1099,6 +1099,7 @@ ul {
           justify-content: center;
   width: 100%;
   max-width: 450px;
+  padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .subscription {
