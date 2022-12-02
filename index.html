@@ -20,13 +20,10 @@
 
   <body>
     <!--header-->
-    <header class="header">
-      <div class="container">
-        <div class="header__container">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo__wrap">Studio</span>
-          </a>
-
+		<header class="header">
+			<div class="container" >
+				<div class="header__container">
+					<a class="link logo" href="./index.html">Web<span class="logo__wrap">Studio</span> </a>
           <div>
             <div class="container">
               <button 
@@ -43,41 +40,42 @@
               </button>         
             </div>
           </div>
+					<nav class="header__nav">
+						<ul class="header__list">
+							<li class="item">
+								<a class="header__link" href="./index.html"> Студія </a>
+							</li>
+							<li class="item">
+								<a class="header__link" href="./portfolio.html">Портфоліо</a>
+							</li>
+							<li class="item">
+								<a class="header__link" href="#">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="contact">
+						<li class="item">
+							<a class="contact__nav" href="mailto:info@devstudio.com">
+								<svg class="contact__icon"  width="16" height="12">
+									<use href="./images/icons/icons.svg#icon-envelope"></use>
+								</svg>
+								info@devstudio.com
+							</a>
+						</li>
+						<li class="item">
+							<a class="contact__nav" href="tel:+380961111111">
+								<svg class="contact__icon"  width="10" height="16">
+									<use href="./images/icons/icons.svg#icon-smartphone"></use>
+								</svg>
+								+38 096 111 11 11
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</header>
 
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="item">
-                <a class="header__link" href="./index.html"> Студія </a>
-              </li>
-              <li class="item">
-                <a class="header__link" href="./portfolio.html">Портфоліо</a>
-              </li>
-              <li class="item">
-                <a class="header__link" href="#">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="contact">
-            <li class="item">
-              <a class="contact__nav" href="mailto:info@devstudio.com">
-                <svg class="contact__icon" width="16" height="12">
-                  <use href="./images/icons/icons.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="item">
-              <a class="contact__nav" href="tel:+380961111111">
-                <svg class="contact__icon" width="10" height="16">
-                  <use href="./images/icons/icons.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+ 
     <main>
       <!--рішення для вашого бізнесу !-->
       <section class="hero">
@@ -609,17 +607,17 @@
           </button>
           <ul class="mobile-menu">
             <li class="item">
-              <a class="mobile-menu__link" href="./index.html"> Студія </a>
+              <a class="link" href="./index.html">Студія </a>
             </li>
             <li class="item">
-              <a class="mobile-menu__link" href="./portfolio.html">Портфоліо</a>
+              <a class="link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="item">
-              <a class="mobile-menu__link" href="#">Контакти</a>
+              <a class="link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul>
+        <ul class="mobile-menu">
           <li class="item">
             <a class="contact__nav" href="tel:+380961111111">
               +38 096 111 11 11
@@ -630,18 +628,18 @@
           </li>
           <li class="item"></li>
         </ul>
-        <ul>
+        <ul class="mobile-menu">
           <li class="item">
-            <a class="header-menu__socials" href="#"> Instagram</a>
+            <a class="link" href="#"> Instagram</a>
           </li>
           <li class="item">
-            <a class="header-menu__socials" href="#">Twiter</a>
+            <a class="link" href="#">Twiter</a>
           </li>
           <li class="item">
-            <a class="header-menu__socials" href="#">Facebook</a>
+            <a class="link" href="#">Facebook</a>
           </li>
           <li class="item">
-            <a class="header-menu__socials" href="#">Linkedin</a>
+            <a class="link" href="#">Linkedin</a>
           </li>
         </ul>
       </div>
