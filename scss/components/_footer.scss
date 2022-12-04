@@ -33,13 +33,29 @@
           flex-wrap: wrap;
           margin-right: 165px;
         }
+        @media screen and (min-width: 1200px) {
+          text-align: left;
+          margin-right: 0;
+        
+        }
   }
   
   &__wrap {
     color: var(--main-light);
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+      margin-right: 0;
+    
+    }
   }
   &__block {
     margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+      margin-bottom: 0px;
+    
+    }
   }
 
   &__link {
@@ -92,8 +108,9 @@
     height: 80px;
   
     @media screen and (min-width: 1200px) {
-      padding-top: 30px;
+      text-align: left;
       max-width: 206px;
+      margin-top: 0px;
     }
  
     
