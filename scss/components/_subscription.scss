@@ -22,11 +22,19 @@
     color: var(--main-light);
     justify-content: center;
     padding-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+    text-align: left;
+         }
   }
   
   &__list {
      align-items: center;
      padding-right: 12px;
+
+     @media screen and (min-width: 1200px){
+      display: flex;
+           }
   
   }  
     
@@ -42,8 +50,14 @@
     color: var(--main-light);
     padding: 16px 15px;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+    width: 100%;
+    max-width: 358px;
+    margin-bottom: 0;
+    padding: 0;
     }
-  
+  }
   &__input:focus {
     outline:none;
     border-color: var(--main-light); 
