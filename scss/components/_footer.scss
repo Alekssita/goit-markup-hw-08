@@ -7,13 +7,18 @@
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+   
            
      
     @media screen and (min-width: 768px){
       display: flex;
       align-items: baseline;
       flex-wrap: wrap;
-    }
+      }
+      @media screen and (min-width: 1200px){
+        justify-content: left;
+       
+      }
   }
 
  &__logo {
@@ -87,16 +92,8 @@
     flex-wrap: wrap;
     list-style: none;
     padding-top: 28px;
-   
-    
-    
-    @media screen and (min-width: 1200px){
-      margin-right: 70px;
-    }
-    @media screen and (min-width: 768px){
-      margin-right: 165px;
-    }
-  }
+          
+ }
 
   
   &__item:not(:last-child) {
@@ -171,6 +168,13 @@
   &__icon:hover {
     fill: var(--main-light);
   }
-   
+  &__block {
+  @media screen and (min-width: 768px){
+    margin-right: 165px;
+  }
+  @media screen and (min-width: 1200px){
+    margin-right: 70px;
+  }
+}
 }
   
