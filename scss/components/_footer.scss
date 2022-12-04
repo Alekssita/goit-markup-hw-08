@@ -74,6 +74,7 @@
     letter-spacing: 0;
     color: var(--main-light);
     text-decoration: none;
+    letter-spacing: 0.03em;
     }
   
   &__nav {
@@ -92,9 +93,8 @@
     flex-wrap: wrap;
     list-style: none;
     padding-top: 28px;
-          
- }
 
+ }
   
   &__item:not(:last-child) {
     margin-bottom: 9px;
@@ -173,7 +173,7 @@
     margin-right: 165px;
   }
   @media screen and (min-width: 1200px){
-    margin-right: 70px;
+    margin-right: 93px;
   }
 }
 }

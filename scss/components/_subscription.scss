@@ -11,6 +11,7 @@
       padding-top: 0;
       padding-left: 0px;
       width: auto;
+      margin: 0 0 0 93px;
          }
            
       
@@ -22,7 +23,7 @@
     text-transform: uppercase;
     color: var(--main-light);
     justify-content: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     @media screen and (min-width: 1200px){
     text-align: left;
@@ -31,7 +32,6 @@
   
   &__list {
      align-items: center;
-     padding-right: 12px;
 
      @media screen and (min-width: 1200px){
       display: flex;
@@ -54,8 +54,7 @@
     @media screen and (min-width: 1200px){
     width: 358px;
     margin-bottom: 0;
-    padding: 0;
-    }
+      }
   }
   &__input:focus {
     outline:none;
