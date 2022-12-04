@@ -413,6 +413,9 @@
 .footer__wrap {
   color: var(--main-light);
 }
+.footer__block {
+  margin-bottom: 60px;
+}
 .footer__link {
   display: inline-block;
   font-style: normal;
@@ -464,7 +467,6 @@
       flex-wrap: wrap;
   list-style: none;
   height: 80px;
-  padding-top: 30px;
 }
 @media screen and (min-width: 1200px) {
   .footer__socials {

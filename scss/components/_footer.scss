@@ -38,6 +38,10 @@
   &__wrap {
     color: var(--main-light);
   }
+  &__block {
+    margin-bottom: 60px;
+  }
+
   &__link {
     display: inline-block;
     font-style: normal;
@@ -92,8 +96,7 @@
       max-width: 206px;
     }
  
-    padding-top: 30px;
-
+    
     @media screen and (min-width: 1200px){
       max-width: 206px;
     }
