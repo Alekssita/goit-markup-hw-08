@@ -3,19 +3,20 @@
   margin: 0 auto;
   justify-content: center;
   width: 100%;
-  max-width: 450px;
   padding-top: 60px;
 
-    @media screen and (min-width: 1200px){
-    max-width: 358px;
-   }
-     
+   
     @media screen and (min-width: 768px){
       display: flex;
       flex-wrap: wrap;
       padding-left: 93px;
         }
-
+   @media screen and (min-width: 1200px){
+      max-width: 358px;
+      padding-top: 0;
+      padding-left: 0px;
+         }
+           
       
   &__naim {
     font-style: normal;
