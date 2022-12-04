@@ -923,18 +923,22 @@
 .menu-container .menu-toggle {
   position: absolute;
   color: var(--main-dark);
+  top: 10px;
+  right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mobile-menu {
   padding: 0;
   margin: 0;
   list-style: none;
-  top: 48px;
+  padding-top: 48px;
 }
 
 .mobile-menu .link {
   display: block;
-  left: 40px;
   font-size: 100px;
   line-height: 1.17;
   font-size: 40px;
