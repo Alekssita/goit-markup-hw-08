@@ -876,12 +876,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -889,6 +883,7 @@
   border: none;
   border-radius: 50%;
   outline: none;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -907,7 +902,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
+  padding-left: 40px;
   background-color: var(--main-light);
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -927,8 +922,6 @@
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 16px;
-  right: 16px;
   color: var(--main-dark);
 }
 
@@ -936,24 +929,19 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  top: 48px;
 }
 
 .mobile-menu .link {
   display: block;
-  margin-left: auto;
-  padding-top: 32px;
   left: 40px;
   font-size: 100px;
   line-height: 1.17;
-  text-decoration: none;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: var(--main-dark);
   margin-bottom: 32px;
+  color: var(--main-dark);
   font-style: normal;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -965,6 +953,7 @@
 }
 
 .mobile-menu__contact {
+  display: block;
   color: var(--secondary-color);
   font-size: 34px;
   line-height: 1.22;
@@ -976,16 +965,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
-  text-decoration: none;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  gap: 20px;
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  font-style: normal;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
