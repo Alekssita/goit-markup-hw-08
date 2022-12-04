@@ -942,6 +942,7 @@
   letter-spacing: 0.02em;
   margin-bottom: 32px;
   color: var(--main-dark);
+  text-decoration: none;
   font-style: normal;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -961,6 +962,10 @@
   text-decoration: none;
 }
 
+.mobile-menu__contact--link {
+  text-decoration: none;
+}
+
 .mobile-menu__social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -972,6 +977,10 @@
   color: var(--secondary-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu__social--linK {
+  text-decoration: none;
 }
 
 .modal {
