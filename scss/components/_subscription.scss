@@ -3,16 +3,11 @@
   margin: 0 auto;
   justify-content: center;
   width: 100%;
-  padding-top: 60px;
-
-   
+     
     @media screen and (min-width: 768px){
-      display: flex;
       flex-wrap: wrap;
-      padding-left: 93px;
-        }
+         }
    @media screen and (min-width: 1200px){
-      max-width: 358px;
       padding-top: 0;
       padding-left: 0px;
          }
@@ -20,12 +15,12 @@
       
   &__naim {
     font-style: normal;
-    max-width: 450px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main-light);
+    justify-content: center;
     padding-bottom: 20px;
   }
   

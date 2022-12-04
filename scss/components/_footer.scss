@@ -107,12 +107,9 @@
     flex-wrap: wrap;
     list-style: none;
     height: 80px;
+    margin-bottom: 60px;
 
-    @media screen and (min-width: 768px){
-      margin-top: 60px;
-      padding-top: 12px;
-    }
-  
+   
     @media screen and (min-width: 1200px) {
       text-align: left;
       max-width: 206px;
