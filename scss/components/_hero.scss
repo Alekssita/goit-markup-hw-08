@@ -2,7 +2,7 @@
     padding: 94px 0;
     background-color: var(--main-unit);
     color: var(--main-dark);
-    padding: 200px 0;
+    padding: 118px 0;
     max-width: 1600px;
     height: 600px;
     margin: auto;
@@ -49,18 +49,30 @@ screen and  (min-resolution: 2dppx) {
     screen and (min-resolution: 96dpi) and (min-width: 768px),
     screen and  (min-resolution: 1dppx) and (min-width: 768px)  { 
     background-image: url('../images/Header.jpg');
+    }
+
+    @media screen and (min-width: 1200px){
+    padding: 200px 0;
+
 }
   &__title {
     max-width: 700px;
     margin: 0 auto 30px;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
     text-align: center;
+    align-content: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light);
+
+    @media screen and (min-width: 1200px){
+      font-size: 44px;
+      line-height: 1.36;
+    }
   }
+
   &__btn {
     padding: 10px 32px;
     border-radius: 4px;
