@@ -107,7 +107,6 @@
     color: var(--secondary-color);
   }
   .mobile-menu__contact {
-    color: var(--secondary-color);
     font-size: 34px;
     line-height: 1.22;
     letter-spacing: 0.02em;
@@ -119,7 +118,8 @@
     text-decoration: none;
     display: flex;
     padding-bottom: 32px;
-    
+    color: var(--secondary-color);
+
   }
 
   .mobile-menu__social {
