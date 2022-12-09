@@ -3,7 +3,7 @@
     color: var(--main-dark);
     padding: 118px 0;
     max-width: 1600px;
-    height: 600px;
+    height: 400px;
     margin: auto;
     background-image: linear-gradient(
         to right,
@@ -67,8 +67,10 @@ screen and  (min-resolution: 2dppx) {
     color: var(--main-light);
    
     @media screen and (min-width: 1200px){
+      height: 600px;
       font-size: 44px;
       line-height: 1.36;
+
     }
   }
 
