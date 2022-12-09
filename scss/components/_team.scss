@@ -12,7 +12,6 @@
   }
 
   &__list  {
-     background: var(--main-light);
     margin-bottom: 30px;
     list-style: none;
     gap: 30px;
@@ -24,6 +23,7 @@
   }
   
    &__item {
+    background: var(--main-light);
     justify-content: center;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 30px;

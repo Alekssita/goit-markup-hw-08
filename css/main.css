@@ -1054,7 +1054,6 @@
   -webkit-transform: translate(-50%) scale(1);
           transform: translate(-50%) scale(1);
   width: 450px;
-  height: 609px;
   background-color: var(--main-light);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1293,7 +1292,6 @@ ul {
   color: var(--main-dark);
 }
 .team__list {
-  background: var(--main-light);
   margin-bottom: 30px;
   list-style: none;
   gap: 30px;
@@ -1308,6 +1306,7 @@ ul {
   }
 }
 .team__item {
+  background: var(--main-light);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
