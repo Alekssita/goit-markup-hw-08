@@ -31,13 +31,11 @@
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
-    margin-bottom: 28px;
-    
-          
-
+      
     @media screen and (min-width: 768px){
           display: flex;
           flex-wrap: wrap;
+          margin-bottom: 28px;
                  }
         @media screen and (min-width: 1200px) {
           text-align: left;
@@ -100,8 +98,7 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
- 
-
+   
  }
   
   &__item:not(:last-child) {
