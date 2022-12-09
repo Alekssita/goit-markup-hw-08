@@ -52,6 +52,7 @@ screen and  (min-resolution: 2dppx) {
 
     @media screen and (min-width: 1200px){
     padding: 200px 0;
+    height: 600px;
 
 }
   &__title {
@@ -67,7 +68,6 @@ screen and  (min-resolution: 2dppx) {
     color: var(--main-light);
    
     @media screen and (min-width: 1200px){
-      height: 600px;
       font-size: 44px;
       line-height: 1.36;
 
