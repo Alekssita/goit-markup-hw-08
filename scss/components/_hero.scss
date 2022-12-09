@@ -1,5 +1,4 @@
   .hero {
-    padding: 94px 0;
     background-color: var(--main-unit);
     color: var(--main-dark);
     padding: 118px 0;
@@ -66,7 +65,7 @@ screen and  (min-resolution: 2dppx) {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light);
-
+   
     @media screen and (min-width: 1200px){
       font-size: 44px;
       line-height: 1.36;

@@ -497,6 +497,7 @@
     max-width: 206px;
     margin-top: 0px;
     padding-top: 0px;
+    margin-right: 94px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -746,7 +747,6 @@
 }
 
 .hero {
-  padding: 94px 0;
   background-color: var(--main-unit);
   color: var(--main-dark);
   padding: 118px 0;
