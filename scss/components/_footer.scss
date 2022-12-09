@@ -57,11 +57,17 @@
   }
   &__block {
     margin-bottom: 60px;
+  
+    @media screen and (min-width: 768px) {
+      margin-left: 78px;
+    }
+ 
 
     @media screen and (min-width: 1200px) {
       text-align: left;
       margin-bottom: 0px;
       margin-right: 94px;
+      margin-left: 0px;
     
     }
   }
@@ -107,6 +113,10 @@
     list-style: none;
     height: 80px;
     margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-right: 78px;
+    }
      
     @media screen and (min-width: 1200px) {
       text-align: left;
@@ -131,7 +141,7 @@
       line-height: 1.14;
       text-transform: uppercase;
       color: var(--main-light);
-      padding-bottom: 20px;
+      margin-bottom: 20px;
     }
 
 &__list {
