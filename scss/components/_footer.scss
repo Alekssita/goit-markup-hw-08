@@ -7,6 +7,7 @@
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    justify-content:space-between;
    
            
      
@@ -17,7 +18,7 @@
       }
       @media screen and (min-width: 1200px){
         justify-content: left;
-       
+          
       }
   }
 
@@ -30,6 +31,7 @@
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
+    margin-bottom: 28px;
     
           
 
@@ -59,6 +61,7 @@
     @media screen and (min-width: 1200px) {
       text-align: left;
       margin-bottom: 0px;
+      margin-right: 94px;
     
     }
   }
@@ -91,7 +94,7 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    padding-top: 28px;
+ 
 
  }
   
@@ -103,12 +106,14 @@
     flex-wrap: wrap;
     list-style: none;
     height: 80px;
+    margin-bottom: 60px;
      
     @media screen and (min-width: 1200px) {
       text-align: left;
       max-width: 206px;
       margin-top: 0px;
       padding-top: 0px;
+      margin-right: 94px;
     }
  
     

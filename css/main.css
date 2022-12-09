@@ -375,6 +375,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
   .footer__communication {
@@ -406,6 +409,7 @@
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
+  margin-bottom: 28px;
 }
 @media screen and (min-width: 768px) {
   .footer__logo {
@@ -441,6 +445,7 @@
   .footer__block {
     text-align: left;
     margin-bottom: 0px;
+    margin-right: 94px;
   }
 }
 .footer__link {
@@ -472,7 +477,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style: none;
-  padding-top: 28px;
 }
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
@@ -485,6 +489,7 @@
       flex-wrap: wrap;
   list-style: none;
   height: 80px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer__socials {
