@@ -1296,6 +1296,10 @@ ul {
   padding: 94px 0;
 }
 .team__title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -1305,6 +1309,10 @@ ul {
 .team__list {
   list-style: none;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .team__list {
@@ -1316,10 +1324,12 @@ ul {
   }
 }
 .team__item {
-  background: var(--main-light);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  background: var(--main-light);
+  justify-content: center;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);

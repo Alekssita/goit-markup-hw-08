@@ -4,7 +4,7 @@
     padding: 94px 0;
     
   &__title {
-    margin-bottom: 50px;
+     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: 1.43;
@@ -14,7 +14,6 @@
   &__list  {
     list-style: none;
     gap: 30px;
-
       @media screen and (min-width: 768px){
       display: flex;
       flex-wrap: wrap;
@@ -22,7 +21,7 @@
   }
   
    &__item {
-    background: var(--main-light);
+     background: var(--main-light);
     justify-content: center;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
