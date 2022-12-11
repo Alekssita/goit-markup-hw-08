@@ -10,10 +10,10 @@
   
   &__item {
     position: relative;
+    display: flex;
+    flex-direction: column;
     max-width: 370px;
-    gap: 30px;
     list-style: none;
-    display: block;
     margin-top: 0;
     font-size: 18px;
     line-height: 2;
@@ -82,10 +82,10 @@
     display: flex;
     padding: 20px 24px;
     border: 1px solid var(--border-goods);
+    flex-direction: column;
+    flex-grow: 1;
   }
-  &__item  {
-    display: block;
-  }
+ 
   &__photo {
     width: 100%;
   }
