@@ -23,16 +23,19 @@
    &__item {
      background: var(--main-light);
     justify-content: center;
+    max-width: 450px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 30px;
     
     @media screen and (min-width: 768px) {
       width: calc((100% - 30px) / 2);
+      max-width: 354px;
     }
   
 
     @media screen and (min-width: 1200px) {
       width: calc((100% - 90px) / 4);
+      max-width: 270px;
     }
    
   }
