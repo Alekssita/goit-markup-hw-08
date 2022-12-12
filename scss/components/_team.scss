@@ -13,7 +13,7 @@
 
   &__list  {
     list-style: none;
-    gap: 30px;
+    
       @media screen and (min-width: 768px){
       display: flex;
       flex-wrap: wrap;
@@ -21,6 +21,8 @@
   }
   
    &__item {
+    margin-left: auto;
+    margin-right: auto;
      background: var(--main-light);
     justify-content: center;
     max-width: 450px;

@@ -1318,7 +1318,6 @@ ul {
 }
 .team__list {
   list-style: none;
-  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .team__list {
@@ -1330,6 +1329,8 @@ ul {
   }
 }
 .team__item {
+  margin-left: auto;
+  margin-right: auto;
   background: var(--main-light);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
